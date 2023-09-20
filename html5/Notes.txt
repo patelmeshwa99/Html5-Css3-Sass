@@ -1,0 +1,24 @@
+HTML5 deprecated the tags like <b>, <u>, <s> because html is not supposed to do the styling on the content. For e.g. in 5, it added strong tag (semantic tag) to leave the styling up to css. It could be anything.
+
+Semantic HTML tags are tags that define the meaning of the content they contain. For e.g. header, footer, etc.
+
+Some inling elements:
+a, button, span, select, strong, em
+
+Weirdly, e is the only letter that is still acceptable for input field of type number
+
+VSC shortcuts for mac users:
+Ctrl + Enter => Wherever you are, just go to the next line
+Cmd + / => Comment in html
+Ctrl + Shift + Down arrow => Copy exact same line below
+Option + Right/Left arrow => Jump by words
+Option + Up/Down arrow => Move the current line up/down
+
+Useful VSC plugins:
+Emmet => Boilerplate code
+Live Server
+
+Shortcuts with Emmet plugin:
+! -> Enter => Boilerplate code for html
+loremx => Dummy text of size x
+li*4 => 4 li tags
