@@ -22,3 +22,14 @@ Shortcuts with Emmet plugin:
 ! -> Enter => Boilerplate code for html
 loremx => Dummy text of size x
 li*4 => 4 li tags
+
+jpeg images have solid colors
+png can have transparent color
+
+background: background-image background-repeat background-position/background-size
+background-attachment: fixed; // Make the image stick to the position mentioned
+box-sizing: border-box => keeps the width of the div as is. Instead of width + padding, width includes padding.
+
+Float
+Float left right both needs to be declared
+Clear:both property is always needed above the next div
