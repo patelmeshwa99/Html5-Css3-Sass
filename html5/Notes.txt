@@ -3,7 +3,10 @@ HTML5 deprecated the tags like <b>, <u>, <s> because html is not supposed to do 
 Semantic HTML tags are tags that define the meaning of the content they contain. For e.g. header, footer, etc.
 
 Some inling elements:
-a, button, span, select, strong, em
+a, button, span, select, strong, em, img
+
+Some block elements:
+li
 
 Weirdly, e is the only letter that is still acceptable for input field of type number
 
@@ -33,3 +36,25 @@ box-sizing: border-box => keeps the width of the div as is. Instead of width + p
 Float
 Float left right both needs to be declared
 Clear:both property is always needed above the next div
+Float left for navbar, one needs to make overflow auto to make sure that background doesn't collapse
+
+a pseudo selectors:
+hover
+visited
+active
+
+li pseudo selectors:
+last-child
+
+Positions:
+static: not affected by top, right, bottom, left
+relative: relative to its actual position
+absolute: parent has to be relative. Till one doesn't mention the element itself to be absolute, its considered fix.
+fixed: It's pulled out of the normal flow of the document and its placed directly on the top and end of all the stuff. Meaning, all the following elements would hide under it. Hence, it will be on top and at the end
+sticky: top, bottom, left, right properties are important here. No matter how much we scroll in what direction, the element will stay sticked to that position.
+
+Z-index
+Higher the z-index, closer will it be to you, on screen.
+
+Display none completely removes the element from the DOM while the visbility property with value hidden maintains its space.
+Class styling will always have preference over the element styling. That's when !important comes in.
